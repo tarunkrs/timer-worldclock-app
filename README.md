@@ -2,9 +2,9 @@
 Make a timer in React that has a countdown timer feature and a world clock.
 
 # Project Structure
-Frontend: React/Next.js for the user interface.
-Backend: Next.js API routes for handling CRUD operations with MongoDB.
-Database: MongoDB to store timer information.
+- Frontend: React/Next.js for the user interface.
+- Backend: Next.js API routes for handling CRUD operations with MongoDB.
+- Database: MongoDB to store timer information.
 
 # Features
 Countdown Timer:
