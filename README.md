@@ -21,7 +21,8 @@ World Clock:
 
 ## Prerequisite
 
-   - NodeJS - Node v18.17.1
+   - NodeJS - v18.17.1
+   - MongoDB - 7.0.11
 
  ## Clone codebase
   
