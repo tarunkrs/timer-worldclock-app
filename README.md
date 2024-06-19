@@ -14,7 +14,7 @@ Countdown Timer:
 - Display each timer with progress.
 - Store timer details in MongoDB.
 
-# World Clock:
+World Clock:
 
 - Select a time zone (PST/IST).
 - Display current time for the selected time zone using an Internet Time API.
