@@ -11,7 +11,15 @@ const WorldClock = (props) => {
       setTime(response.data.datetime);
     };
 
-    fetchTime();
+    fetchTime(); 
+
+    // Update time every second
+    const intervalId = setInterval(() => {
+      fetchTime();
+    }, 1000);
+
+    // Cleanup interval on component unmount
+    return () => clearInterval(intervalId);
   }, [timezone]);
 
   return (
