@@ -1,5 +1,5 @@
 # Demo of World Clock & Countdown Timer
-Make a timer in React that has a countdown timer feature and a world clock.
+Next.js app that has a countdown timer and world clock.
 
 # Project Structure
 - Frontend: Next.js for the user interface.
