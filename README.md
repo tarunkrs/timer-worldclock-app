@@ -56,11 +56,11 @@ World Clock:
 
 ## To verify UI
 
-   URL: http://localhost:3000/api/timers
+   URL: http://localhost:3000
 
 ## To verify the APIs 
 
-   URL: http://localhost:3000
+   URL: http://localhost:3000/api/timers
 
  
 
