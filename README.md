@@ -63,5 +63,14 @@ npm run dev
 
    URL: http://localhost:3000/api/timers
 
+### Support
+
+Please support by starring this project.
+
+### License
+
+This project is licensed under the MIT License. For more information, refer to the LICENSE file.
+
+
  
 
