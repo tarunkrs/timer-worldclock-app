@@ -1,6 +1,10 @@
 # Demo of World Clock & Countdown Timer
 Next.js app that has a countdown timer and world clock.
 
+### Prerequisite
+   - NodeJS - v18.17.1
+   - MongoDB - 7.0.11
+
 ### Project Structure
 1. Frontend: Next.js for the user interface.
 2. Backend: Next.js API routes for handling CRUD operations with MongoDB.
@@ -19,11 +23,6 @@ Next.js app that has a countdown timer and world clock.
 
 1. Select a time zone (PST/IST).
 2. Display current time for the selected time zone using an Internet Time API.
-
-### Prerequisite
-
-   - NodeJS - v18.17.1
-   - MongoDB - 7.0.11
 
 ## Getting Started
 
