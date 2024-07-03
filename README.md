@@ -1,38 +1,45 @@
 # Demo of World Clock & Countdown Timer
 Next.js app that has a countdown timer and world clock.
 
-# Project Structure
-- Frontend: Next.js for the user interface.
-- Backend: Next.js API routes for handling CRUD operations with MongoDB.
-- Database: MongoDB to store timer information.
+### Project Structure
+1. Frontend: Next.js for the user interface.
+2. Backend: Next.js API routes for handling CRUD operations with MongoDB.
+3. Database: MongoDB to store timer information.
 
-# Features
-Countdown Timer:
+### Features
 
-- Start a countdown timer.
-- Add/Remove timers to/from a list.
-- Display each timer with progress.
-- Store timer details in MongoDB.
+#### Countdown Timer:
 
-World Clock:
+1. Start a countdown timer.
+2. Add/Remove timers to/from a list.
+3. Display each timer with progress.
+4. Store timer details in MongoDB.
 
-- Select a time zone (PST/IST).
-- Display current time for the selected time zone using an Internet Time API.
+#### World Clock:
 
-## Prerequisite
+1. Select a time zone (PST/IST).
+2. Display current time for the selected time zone using an Internet Time API.
+
+### Prerequisite
 
    - NodeJS - v18.17.1
    - MongoDB - 7.0.11
 
- ## Clone codebase
+## Getting Started
+
+### Installation
   
-   - Run > git clone  [path](https://github.com/phptarun/timer-worldclock-app)
-
-   - Run > git checkout main
-
-  
-
- ## Dependencies
+```bash
+# 1. To clone reporepository
+git clone https://github.com/tarunkrs/timer-worldclock-app.git
+# 2. Nevigate to directory
+cd timer-worldclock-app
+# 3. To Install dependencies
+npm install
+# 4. To start the application
+npm run dev
+```
+#### Dependencies
   ```JSON
     {  
         "dependencies": {
@@ -48,18 +55,12 @@ World Clock:
         }
     }
   ```
- 
- ## Once clone is successful, to install required modules
 
-   - Run > npm install 
-
-   - Run > npm run dev
-
-## To verify UI
+#### To verify UI
 
    URL: http://localhost:3000
 
-## To verify the APIs 
+#### To verify the APIs 
 
    URL: http://localhost:3000/api/timers
 
